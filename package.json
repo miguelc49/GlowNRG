@@ -1,0 +1,12 @@
+{
+  "name": "robocalls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Ckr",
+  "license": "ISC",
+  "dependencies": {
+    "froala-editor": "4.1.0",
+    "ghost": "5.82.0"
+  }
+}
