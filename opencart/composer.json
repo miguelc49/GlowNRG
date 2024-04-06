@@ -1,0 +1,20 @@
+{
+    "name": "glownrg/php",
+    "description": "A new boot",
+    "type": "project",
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "GreyNic",
+            "email": "grey.nic@room35.com"
+        }
+    ],
+    "require": {
+        "opencart/opencart": "v3.0.3.9"
+    },
+    "config": {
+        "platform": {
+            "php": "8.1"
+        }
+    }
+}
