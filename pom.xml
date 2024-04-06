@@ -1,0 +1,70 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.glownrg</groupId>
+    <artifactId>injection</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>GlowNRG</name>
+    <description>GlowNRG</description>
+
+    <dependencies>
+        <!-- Quarkus -->
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-universe-bom</artifactId>
+            <version>3.9.2</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+
+        <!-- Apache InLong Manager Web -->
+        <dependency>
+            <groupId>org.apache.inlong</groupId>
+            <artifactId>manager-web</artifactId>
+            <version>1.8.0-RC1</version>
+        </dependency>
+
+        <!-- MingSoft MCMS -->
+        <dependency>
+            <groupId>net.mingsoft</groupId>
+            <artifactId>ms-mcms</artifactId>
+            <version>5.2.9</version>
+        </dependency>
+
+        <!-- Hazelcast -->
+        <dependency>
+            <groupId>com.hazelcast</groupId>
+            <artifactId>hazelcast</artifactId>
+            <version>5.1.5</version>
+        </dependency>
+
+        <!-- Crypto-JS -->
+        <dependency>
+            <groupId>org.webjars.bower</groupId>
+            <artifactId>crypto-js</artifactId>
+            <version>4.1.0</version>
+        </dependency>
+
+        <!-- Yamcs Core -->
+        <dependency>
+            <groupId>org.yamcs</groupId>
+            <artifactId>yamcs-core</artifactId>
+            <version>5.8.6</version>
+        </dependency>
+
+        <!-- Hutool HTTP -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-http</artifactId>
+            <version>5.8.27</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+          
+        </plugins>
+    </build>
+</project>
